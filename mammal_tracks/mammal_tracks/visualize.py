@@ -3,12 +3,12 @@ import base64
 import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image
+import os
 
-csv.field_size_limit(10 * 1024 * 1024)  # Par exemple, 10 Mo
+csv.field_size_limit(10 * 1024 * 1024)  # Augmentation de la limite de taille pour les fichiers CSV
 
 def is_base64_encoded(data):
     try:
-        # Vérifier si la chaîne peut être décodée
         base64.b64decode(data, validate=True)
         return True
     except Exception:
@@ -19,7 +19,7 @@ def display_image_from_base64(base64_string):
         image_data = base64.b64decode(base64_string)
         image = Image.open(BytesIO(image_data))
         plt.imshow(image)
-        plt.axis('off')  # Masquer les axes
+        plt.axis('off')
         plt.show()
         return image
     except Exception as e:
@@ -42,43 +42,66 @@ def validate_or_remove_image(image, index, ax, row, valid_rows):
             plt.close()
             break
         else:
-            print("Choix non valide, veuillez entrer 'v' pour valider ou 'd' pour supprimer.")
+            print("Choix non valide. Veuillez entrer 'v' ou 'd'.")
 
-# Fonction pour visualiser et valider les images
-def validate_images(csv_file, output_csv):
+def validate_images(csv_file, output_csv=None):
     with open(csv_file, mode='r', newline='', encoding='utf-8') as infile:
         reader = csv.DictReader(infile)
-        rows = list(reader)  # Lire toutes les lignes du fichier CSV
-        valid_rows = []  # Liste pour stocker les lignes validées
+        rows = list(reader)
+        valid_rows = []
 
-        # Préparez une figure pour afficher les images
         plt.figure(figsize=(8, 8))
         
         for index, row in enumerate(rows):
             base64_image = row.get('image_url')
 
-            # Vérifier si le contenu base64 est valide
             if not base64_image or not is_base64_encoded(base64_image):
-                print(f"Ligne {index + 1} ignorée : données base64 invalides ou manquantes.")
+                print(f"Ligne {index + 1} ignorée : données invalides.")
                 continue
 
-            # Afficher l'image
             image = display_image_from_base64(base64_image)
             if image:
-                # Afficher l'image et demander la validation ou suppression
                 ax = plt.subplot(1, 1, 1)
                 validate_or_remove_image(image, index, ax, row, valid_rows)
+
+        # Sauvegarde du CSV filtré si spécifié
+        if output_csv:
+            with open(output_csv, mode='w', newline='', encoding='utf-8') as outfile:
+                writer = csv.DictWriter(outfile, fieldnames=reader.fieldnames)
+                writer.writeheader()
+                writer.writerows(valid_rows)
+            print(f"CSV filtré sauvegardé : {output_csv}")
+
+        # Sauvegarde des images dans l'arborescence
+        save_images(valid_rows)
+
+        print(f"Traitement complet : {len(valid_rows)}/{len(rows)} images validées")
+
+def save_images(valid_rows):
+    os.makedirs('images', exist_ok=True)  # Création du dossier principal
+    
+    for row in valid_rows:
+        try:
+            animal = row.get('animal', 'inconnu')
+            image_data = base64.b64decode(row['image_url'])
             
-        # Sauvegarder le CSV mis à jour avec les images validées
-        with open(output_csv, mode='w', newline='', encoding='utf-8') as outfile:
-            fieldnames = rows[0].keys()  # Les colonnes de l'original
-            writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(valid_rows)  # Écrire uniquement les lignes validées
+            # Création du sous-dossier par espèce
+            species_dir = os.path.join('images', animal.replace(' ', '_'))
+            os.makedirs(species_dir, exist_ok=True)
+            
+            # Génération d'un nom de fichier unique
+            filename = f"{row.get('id', 'image')}_{hash(row['image_url']) & 0xFFFFFFFF}.jpg"
+            filepath = os.path.join(species_dir, filename)
+            
+            with open(filepath, 'wb') as f:
+                f.write(image_data)
+            
+            print(f"Image sauvegardée : {filepath}")
+        except Exception as e:
+            print(f"Erreur de sauvegarde pour {row.get('id')} : {e}")
 
-        print(f"CSV mis à jour avec les images validées. Fichier sauvegardé sous {output_csv}")
-
-# Exemple d'utilisation
-csv_file = 'tracks_with_image.csv'  # Nom de votre fichier CSV avec les images en base64
-output_csv = 'validated_images.csv'  # Fichier de sortie avec les images validées
-validate_images(csv_file, output_csv)
+# Exemple d'utilisation avec les deux fonctionnalités
+validate_images(
+    csv_file='tracks_with_image.csv',
+    output_csv='validated_images.csv'  # Optionnel
+)
