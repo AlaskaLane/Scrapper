@@ -22,7 +22,7 @@ class ScraperConfig:
             'Accept-Language': 'en-US,en;q=0.5',
         }
 
-class NatureTrackingScraper:
+class NatureTracking:
     def __init__(self, config: ScraperConfig):
         self.config = config
         self.setup_logging()
@@ -130,7 +130,7 @@ class NatureTrackingScraper:
 
 def main():
     config = ScraperConfig()
-    scraper = NatureTrackingScraper(config)
+    scraper = NatureTracking(config)
     scraper.run()
 
 if __name__ == "__main__":
