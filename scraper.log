@@ -1,0 +1,389 @@
+2025-03-09 16:02:56,253 - INFO - ====== WebDriver manager ======
+2025-03-09 16:02:57,332 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:02:57,399 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:02:57,432 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:02:57,505 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-09 16:02:57,507 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-09 16:02:57,507 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-09 16:02:57,561 - INFO - Driver downloading response is 200
+2025-03-09 16:02:57,699 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:02:58,435 - INFO - Driver has been saved in cache [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-09 16:03:07,214 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:08,071 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:08,985 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:09,911 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:10,741 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:11,600 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:11,603 - ERROR - Échec du clic sur Load More: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:11,612 - ERROR - Erreur majeure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:11,618 - WARNING - Attempt 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:12,625 - ERROR - Erreur majeure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:12,628 - WARNING - Attempt 2 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:14,640 - ERROR - Erreur majeure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:14,643 - ERROR - Erreur d'exécution: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005EF74E]
+	(No symbol) [0x00683C8E]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:23,686 - INFO - ====== WebDriver manager ======
+2025-03-09 16:03:24,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:03:24,749 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:03:24,775 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-09 16:03:31,757 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:32,710 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:33,652 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:34,527 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:35,441 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:36,412 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:37,360 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:38,311 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:39,162 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:40,108 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:41,076 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:41,966 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:42,811 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:43,645 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:44,495 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:45,370 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:46,338 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:47,182 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:48,018 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:48,864 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:49,818 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:50,783 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:51,633 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:52,725 - INFO - Bouton Load More cliqué avec succès
+2025-03-09 16:03:53,596 - ERROR - Échec du clic sur Load More: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x006104E3]
+	(No symbol) [0x005FFE10]
+	(No symbol) [0x0061D89A]
+	(No symbol) [0x00683DDF]
+	(No symbol) [0x0069E059]
+	(No symbol) [0x0067CDC6]
+	(No symbol) [0x0064BDE9]
+	(No symbol) [0x0064D124]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x007370B8]
+	(No symbol) [0x00737257]
+	(No symbol) [0x00729E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:53,650 - ERROR - Erreur majeure: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:53,654 - WARNING - Attempt 1 failed: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:54,671 - ERROR - Erreur majeure: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:54,687 - WARNING - Attempt 2 failed: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:56,703 - ERROR - Erreur majeure: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-09 16:03:56,708 - ERROR - Erreur d'exécution: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A0B43+25139]
+	(No symbol) [0x007313F4]
+	(No symbol) [0x00610340]
+	(No symbol) [0x0064B278]
+	(No symbol) [0x0067CE86]
+	(No symbol) [0x00678861]
+	(No symbol) [0x00677DE6]
+	(No symbol) [0x005E3245]
+	(No symbol) [0x005E379E]
+	(No symbol) [0x005E3C1D]
+	GetHandleVerifier [0x00AA4373+3185251]
+	GetHandleVerifier [0x00AC291A+3309578]
+	GetHandleVerifier [0x00ABCF42+3286578]
+	GetHandleVerifier [0x00837AE0+643536]
+	(No symbol) [0x0073A20D]
+	(No symbol) [0x005E2F10]
+	(No symbol) [0x005E2AD6]
+	GetHandleVerifier [0x00B4717C+3852396]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
