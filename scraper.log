@@ -580,3 +580,181 @@ Stacktrace:
 2025-03-09 23:01:11,756 - INFO - Successfully downloaded: ../data/i_naturalist\7_23_cerf_de_virginie.jpg
 2025-03-09 23:01:14,471 - INFO - Successfully downloaded: ../data/i_naturalist\7_24_mammifères.jpg
 2025-03-09 23:01:31,216 - INFO - No more images found on page 8
+2025-03-10 21:23:25,542 - INFO - ====== WebDriver manager ======
+2025-03-10 21:23:27,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,091 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,135 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,290 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-10 21:23:28,300 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-10 21:23:28,302 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-10 21:23:28,372 - INFO - Driver downloading response is 200
+2025-03-10 21:23:28,603 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:29,590 - INFO - Driver has been saved in cache [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-10 21:23:40,670 - INFO - Successfully downloaded: ./data/i_naturalist\lièvre_d'amérique\1_1_lièvre_d'amérique.jpg
+2025-03-10 21:23:43,896 - INFO - Successfully downloaded: ./data/i_naturalist\cerf_élaphe\1_2_cerf_élaphe.jpg
+2025-03-10 21:23:46,597 - INFO - Successfully downloaded: ./data/i_naturalist\mouffette_rayée\1_3_mouffette_rayée.jpg
+2025-03-10 21:24:23,841 - INFO - ====== WebDriver manager ======
+2025-03-10 21:24:25,753 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:24:25,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:24:25,841 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:24:47,520 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:48,711 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:49,678 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:50,904 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:52,599 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:54,042 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:55,638 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:59,379 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:03,090 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:05,091 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:06,943 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:10,537 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:12,544 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:14,450 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:16,335 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:20,908 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:23,970 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:28,106 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:29,961 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:32,923 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:37,596 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:39,644 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:41,816 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:43,544 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:46,158 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:47,964 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:49,976 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:52,450 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:54,368 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:56,726 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:58,533 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:00,480 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:02,308 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:04,199 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:06,505 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:09,528 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:12,535 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:14,519 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:16,752 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:19,211 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:21,318 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:23,714 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:27,197 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:30,762 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:32,587 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:35,125 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:40,284 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:43,502 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:45,901 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:47,670 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:50,161 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:52,615 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:56,230 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:58,985 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:04,388 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:10,559 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:14,522 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:17,504 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:21,052 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:23,765 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:25,648 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:34,568 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:40,202 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:42,616 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-10 21:29:32,198 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Spotted-Skunk-Tracks-(2).jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Spotted-Skunk-Tracks-(2).jpg
+2025-03-10 21:29:35,220 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-2.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-2.jpg
+2025-03-10 21:29:35,836 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-4.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-4.jpg
+2025-03-10 21:29:36,390 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-6.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-6.jpg
+2025-03-10 21:33:21,364 - INFO - ====== WebDriver manager ======
+2025-03-10 21:33:24,926 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:33:24,987 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:33:25,038 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:33:43,245 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:45,556 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:48,097 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:49,620 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:51,116 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:52,898 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:55,268 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:58,313 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:02,342 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:05,630 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:08,319 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:11,679 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:16,474 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:20,327 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:25,812 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:27,517 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:29,247 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:32,125 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:35,877 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:41,351 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:44,499 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:50,703 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:02,019 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:06,419 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:10,616 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:15,523 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:21,969 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:25,513 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:28,602 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:34,702 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:38,429 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:42,581 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:47,581 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:50,543 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:54,314 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:58,211 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:02,533 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:05,919 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:08,453 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+

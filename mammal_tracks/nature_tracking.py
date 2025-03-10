@@ -92,7 +92,6 @@ class MammalTracksScraper:
 
             # Double vérification de la visibilité
             ActionChains(self.driver).move_to_element(load_more).perform()
-            time.sleep(0.5)
 
             # Cliquer avec JavaScript
             self.driver.execute_script("arguments[0].click();", load_more)
@@ -136,7 +135,7 @@ class MammalTracksScraper:
 
         # Dernière vérification
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-        time.sleep(0.2)
+        time.sleep(0.02)
 
     def _extract_track_data(self, container):
         try:
@@ -170,7 +169,7 @@ class MammalTracksScraper:
             self.wait.until(EC.element_to_be_clickable(
                 (By.CSS_SELECTOR, "div[data-filter-slug='tracks']")
             )).click()
-            time.sleep(0.5)  # Réduire le temps d'attente
+            time.sleep(0.05)  # Réduire le temps d'attente
 
             # Chargement complet
             self._load_all_content()
@@ -202,16 +201,36 @@ class MammalTracksScraper:
             return None
 
     def download_images(self, data, output_dir="nature_tracking"):
-        os.makedirs(output_dir, exist_ok=True)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'image/webp,image/*,*/*;q=0.8',
+            'Referer': 'https://naturetracking.com/'
+        }
+        
         for item in data:
             try:
-                response = requests.get(item['image_url'], stream=True)
+                # Nettoyer le nom de l'animal pour le dossier
+                animal_name = item['animal_name'].strip().replace(' ', '_').lower()
+                animal_dir = os.path.join(output_dir, animal_name)
+                os.makedirs(animal_dir, exist_ok=True)
+
+                # Télécharger dans le dossier de l'espèce
+                filename = os.path.basename(urlparse(item['image_url']).path)
+                filepath = os.path.join(animal_dir, filename)
+
+                filepath = os.path.join('data', filepath)
+
+                encoded_url = requests.utils.quote(item['image_url'], safe=":/")
+
+                response = requests.get(encoded_url, stream=True, headers=headers)
                 response.raise_for_status()
-                filepath = os.path.join(output_dir, item['filename'])
+                
                 with open(filepath, 'wb') as f:
                     for chunk in response.iter_content(chunk_size=8192):
                         f.write(chunk)
+                
                 item['local_path'] = filepath
+                print(f"Image téléchargée : {filepath}")
             except Exception as e:
                 logging.error(f"Échec téléchargement {item['image_url']}: {str(e)}")
         return data

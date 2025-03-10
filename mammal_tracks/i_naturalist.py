@@ -128,7 +128,9 @@ class MammalTrackScraper:
 
             animal_name = self.extract_animal_name(photo_element)
             file_name = f"{page_number}_{i + 1}_{animal_name}.jpg"
-            file_path = os.path.join(self.config.download_dir, file_name)
+            species_dir = os.path.join(self.config.download_dir, animal_name)
+            os.makedirs(species_dir, exist_ok=True)
+            file_path = os.path.join(species_dir, file_name)
             
             self.download_image(image_url, file_path)
 
