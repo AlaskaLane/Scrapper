@@ -1,0 +1,11 @@
+2025-01-13 11:23:21,397 - INFO - ====== WebDriver manager ======
+2025-01-13 11:23:22,808 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-13 11:23:29,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-13 11:23:31,231 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-13 11:23:37,353 - INFO - WebDriver version 131.0.6778.264 selected
+2025-01-13 11:23:37,355 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/win32/chromedriver-win32.zip
+2025-01-13 11:23:37,356 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/win32/chromedriver-win32.zip
+2025-01-13 11:23:43,821 - INFO - Driver downloading response is 200
+2025-01-13 11:23:54,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-13 11:23:55,060 - INFO - Driver has been saved in cache [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\131.0.6778.264]
+2025-01-13 11:24:24,678 - INFO - Successfully downloaded: mammal_tracks\1_1_mammifères.jpg

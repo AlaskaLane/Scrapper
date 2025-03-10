@@ -758,3 +758,102 @@ Stacktrace:
 	RtlInitializeExceptionChain [0x7724C2EB+107]
 	RtlClearBits [0x7724C26F+191]
 
+2025-03-10 21:42:03,837 - INFO - ====== WebDriver manager ======
+2025-03-10 21:42:05,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:05,404 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:05,431 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:42:18,162 - ERROR - Erreur majeure: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-03-10 21:42:26,354 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBBD30>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:30,456 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBB940>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:34,528 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBBF40>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:49,666 - INFO - ====== WebDriver manager ======
+2025-03-10 21:42:51,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:51,135 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:51,169 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:43:00,372 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:00,812 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:01,418 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:02,650 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:04,378 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:05,371 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:06,522 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:07,385 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:08,101 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:08,813 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:09,541 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:10,291 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:10,947 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:12,701 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:13,875 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:14,465 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:15,699 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:16,311 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:17,661 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:18,718 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:19,249 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:19,948 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:20,553 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:21,782 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:22,542 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:23,834 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:24,566 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:25,294 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:26,573 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:27,229 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:27,924 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:29,454 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:30,279 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:31,108 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:31,968 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:33,700 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:34,676 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:35,434 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:36,112 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:36,877 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:37,529 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:38,612 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:40,285 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:40,996 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:41,776 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:42,529 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:43,210 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:44,342 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:46,080 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:47,565 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:48,171 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:48,911 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:49,560 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:50,466 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:51,296 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:53,351 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:54,767 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:55,573 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:56,592 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-10 21:45:55,368 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D897F0850>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
+2025-03-10 21:45:59,455 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D89856220>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
+2025-03-10 21:46:03,593 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D89856910>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
