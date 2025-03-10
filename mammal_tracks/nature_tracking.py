@@ -201,7 +201,7 @@ class MammalTracksScraper:
             self.driver.save_screenshot('error.png')
             return None
 
-    def download_images(self, data, output_dir="downloads"):
+    def download_images(self, data, output_dir="nature_tracking"):
         os.makedirs(output_dir, exist_ok=True)
         for item in data:
             try:

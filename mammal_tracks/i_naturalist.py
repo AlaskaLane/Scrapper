@@ -15,7 +15,7 @@ from typing import Set, Optional
 @dataclass
 class ScraperConfig:
     base_url: str = 'https://www.inaturalist.org/observations'
-    download_dir: str = 'mammal_tracks'
+    download_dir: str = './data/i_naturalist'
     log_file: str = 'downloaded_images.txt'
     request_delay: float = 2.0
     scroll_delay: float = 1.0
