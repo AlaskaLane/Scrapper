@@ -5,10 +5,6 @@ import numpy as np
 import os
 
 
-# Paramètres API
-API_KEY = "AIzaSyDG7oPrdDuHcbpxO52hEU7nUPnva6JlehE"
-CX = "92648843c73bc40ee"
-
 # Paramètres globaux
 animals = [
     "Oryctolagus cuniculus", "Ailurus fulgens", "Lynx lynx", "Panthera leo",
