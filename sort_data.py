@@ -3,8 +3,6 @@ import pandas as pd
 import re
 import joblib
 
-print('rijgoe^')
-
 # === 1. Extraction depuis les dossiers ===
 def extract_from_folders(base_path):
     data = []
@@ -42,14 +40,11 @@ def merge_data(folders_path, filenames_path, csv_path):
     df_final.drop_duplicates(inplace=True)
     return df_final
 
+
 # === Execution ===
 FOLDER_PATH = "/Users/gordillolois/Documents/OpenAnimalTracks/cropped_imgs/test"
-FILENAME_PATH = "mammal_tracks/mammal_tracks/mammal_tracks"
+FILENAME_PATH = "mammal_tracks/mammal_tracks"
 CSV_PATH = "validated_images.csv"
-
-print(os.path.exists(FOLDER_PATH))  # Doit retourner True
-print(os.path.exists(FILENAME_PATH))  # Doit retourner True
-print(os.path.exists(CSV_PATH))  # Doit retourner True
 
 df = merge_data(FOLDER_PATH, FILENAME_PATH, CSV_PATH)
 
@@ -64,4 +59,5 @@ print(df["animal"].unique())
 print(len(df["animal"].unique()))
 
 # enregistrement du df avec joblib
-joblib.dump(df, "mammal_tracks/mammal_tracks/nature_tracking_data/data.pkl")
+joblib.dump(df, "mammal_tracks/nature_tracking_data/data.pkl")
+

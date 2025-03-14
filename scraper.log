@@ -387,3 +387,473 @@ Stacktrace:
 	RtlInitializeExceptionChain [0x7724C2EB+107]
 	RtlClearBits [0x7724C26F+191]
 
+2025-03-09 16:53:30,389 - INFO - ====== WebDriver manager ======
+2025-03-09 16:53:31,305 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:53:31,351 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 16:53:31,379 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-09 16:53:36,088 - ERROR - Erreur majeure: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-03-09 16:53:40,186 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2310>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:53:44,296 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C20D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:53:48,414 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2670>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:53:52,525 - WARNING - Attempt 1 failed: HTTPConnectionPool(host='localhost', port=56557): Max retries exceeded with url: /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C21C0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-03-09 16:53:57,634 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2910>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:01,750 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2AF0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:05,845 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2D00>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:09,942 - ERROR - Erreur majeure: HTTPConnectionPool(host='localhost', port=56557): Max retries exceeded with url: /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2F10>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-03-09 16:54:14,061 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2280>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:54:18,131 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C25B0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:54:22,217 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C20D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot
+2025-03-09 16:54:26,333 - WARNING - Attempt 2 failed: HTTPConnectionPool(host='localhost', port=56557): Max retries exceeded with url: /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9C2160>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-03-09 16:54:32,429 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56E9B26A0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:36,543 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56EA0B1F0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:40,668 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56EA0B400>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015/url
+2025-03-09 16:54:46,825 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D56EA0B6D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/b6f70d6a11ccc1ba5dfcb04c8bb9f015
+2025-03-09 22:53:53,790 - INFO - ====== WebDriver manager ======
+2025-03-09 22:53:54,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:53:54,984 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-09 22:53:55,019 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-09 22:54:01,829 - INFO - Successfully downloaded: ../data/i_naturalist\1_1_canidés.jpg
+2025-03-09 22:54:04,425 - INFO - Successfully downloaded: ../data/i_naturalist\1_2_martre_du_pacifique.jpg
+2025-03-09 22:54:06,527 - INFO - Successfully downloaded: ../data/i_naturalist\1_3_loup_gris.jpg
+2025-03-09 22:54:09,032 - INFO - Successfully downloaded: ../data/i_naturalist\1_4_cerf_de_virginie.jpg
+2025-03-09 22:54:11,605 - INFO - Successfully downloaded: ../data/i_naturalist\1_5_mouffette_rayée.jpg
+2025-03-09 22:54:14,280 - INFO - Successfully downloaded: ../data/i_naturalist\1_6_wombat_commun.jpg
+2025-03-09 22:54:16,933 - INFO - Successfully downloaded: ../data/i_naturalist\1_7_diable_de_tasmanie.jpg
+2025-03-09 22:54:19,605 - INFO - Successfully downloaded: ../data/i_naturalist\1_8_ragondin.jpg
+2025-03-09 22:54:22,095 - INFO - Successfully downloaded: ../data/i_naturalist\1_9_coyote.jpg
+2025-03-09 22:54:24,732 - INFO - Successfully downloaded: ../data/i_naturalist\1_10_raton_laveur_commun.jpg
+2025-03-09 22:54:27,213 - INFO - Successfully downloaded: ../data/i_naturalist\1_11_renard_roux.jpg
+2025-03-09 22:54:29,732 - INFO - Successfully downloaded: ../data/i_naturalist\1_12_pékan.jpg
+2025-03-09 22:54:32,330 - INFO - Successfully downloaded: ../data/i_naturalist\1_13_coyote.jpg
+2025-03-09 22:54:34,927 - INFO - Successfully downloaded: ../data/i_naturalist\1_14_mammifères.jpg
+2025-03-09 22:54:37,586 - INFO - Successfully downloaded: ../data/i_naturalist\1_15_puma.jpg
+2025-03-09 22:54:40,222 - INFO - Successfully downloaded: ../data/i_naturalist\1_16_élan.jpg
+2025-03-09 22:54:42,780 - INFO - Successfully downloaded: ../data/i_naturalist\1_17_lynx_du_canada.jpg
+2025-03-09 22:54:45,373 - INFO - Successfully downloaded: ../data/i_naturalist\1_18_écureuil_gris.jpg
+2025-03-09 22:54:47,974 - INFO - Successfully downloaded: ../data/i_naturalist\1_19_mouflon_du_désert.jpg
+2025-03-09 22:54:50,549 - INFO - Successfully downloaded: ../data/i_naturalist\1_20_mouflon_du_désert.jpg
+2025-03-09 22:54:53,079 - INFO - Successfully downloaded: ../data/i_naturalist\1_21_carnivores.jpg
+2025-03-09 22:54:55,468 - INFO - Successfully downloaded: ../data/i_naturalist\1_22_lynx.jpg
+2025-03-09 22:54:58,196 - INFO - Successfully downloaded: ../data/i_naturalist\1_23_lièvre_d'amérique.jpg
+2025-03-09 22:55:01,205 - INFO - Successfully downloaded: ../data/i_naturalist\1_24_lièvre_d'amérique.jpg
+2025-03-09 22:55:08,942 - INFO - Successfully downloaded: ../data/i_naturalist\2_1_opossum_de_virginie.jpg
+2025-03-09 22:55:11,044 - INFO - Successfully downloaded: ../data/i_naturalist\2_2_lynx_roux.jpg
+2025-03-09 22:55:13,149 - INFO - Successfully downloaded: ../data/i_naturalist\2_3_canidés.jpg
+2025-03-09 22:55:15,763 - INFO - Successfully downloaded: ../data/i_naturalist\2_4_kangourou_géant.jpg
+2025-03-09 22:55:17,903 - INFO - Successfully downloaded: ../data/i_naturalist\2_5_lièvre_d'amérique.jpg
+2025-03-09 22:55:20,080 - INFO - Successfully downloaded: ../data/i_naturalist\2_6_.jpg
+2025-03-09 22:55:22,707 - INFO - Successfully downloaded: ../data/i_naturalist\2_7_glouton.jpg
+2025-03-09 22:55:25,310 - INFO - Successfully downloaded: ../data/i_naturalist\2_8_galéopithèque_de_malaisie.jpg
+2025-03-09 22:55:27,835 - INFO - Successfully downloaded: ../data/i_naturalist\2_9_chevrotain_kanchil.jpg
+2025-03-09 22:55:30,379 - INFO - Successfully downloaded: ../data/i_naturalist\2_10_galéopithèque_de_malaisie.jpg
+2025-03-09 22:55:32,861 - INFO - Successfully downloaded: ../data/i_naturalist\2_11_mustélidés.jpg
+2025-03-09 22:55:35,042 - INFO - Successfully downloaded: ../data/i_naturalist\2_12_raton_laveur_commun.jpg
+2025-03-09 22:55:37,184 - INFO - Successfully downloaded: ../data/i_naturalist\2_13_mustélidés.jpg
+2025-03-09 22:55:39,331 - INFO - Successfully downloaded: ../data/i_naturalist\2_14_mammifères.jpg
+2025-03-09 22:55:41,941 - INFO - Successfully downloaded: ../data/i_naturalist\2_15_carnivores.jpg
+2025-03-09 22:55:44,027 - INFO - Successfully downloaded: ../data/i_naturalist\2_16_carnivores.jpg
+2025-03-09 22:55:46,616 - INFO - Successfully downloaded: ../data/i_naturalist\2_17_écureuil_gris.jpg
+2025-03-09 22:55:49,342 - INFO - Successfully downloaded: ../data/i_naturalist\2_18_artiodactyles.jpg
+2025-03-09 22:55:51,814 - INFO - Successfully downloaded: ../data/i_naturalist\2_19_raton_laveur_commun.jpg
+2025-03-09 22:55:54,283 - INFO - Successfully downloaded: ../data/i_naturalist\2_20_pékan.jpg
+2025-03-09 22:55:56,885 - INFO - Successfully downloaded: ../data/i_naturalist\2_21_.jpg
+2025-03-09 22:55:59,384 - INFO - Successfully downloaded: ../data/i_naturalist\2_22_.jpg
+2025-03-09 22:56:01,625 - INFO - Successfully downloaded: ../data/i_naturalist\2_23_raton_laveur_commun.jpg
+2025-03-09 22:56:04,246 - INFO - Successfully downloaded: ../data/i_naturalist\2_24_loutre_du_canada.jpg
+2025-03-09 22:56:10,428 - INFO - Successfully downloaded: ../data/i_naturalist\3_1_cervidés.jpg
+2025-03-09 22:56:13,042 - INFO - Successfully downloaded: ../data/i_naturalist\3_2_coyote.jpg
+2025-03-09 22:56:15,604 - INFO - Successfully downloaded: ../data/i_naturalist\3_3_carnivores.jpg
+2025-03-09 22:56:17,721 - INFO - Successfully downloaded: ../data/i_naturalist\3_4_mammifères.jpg
+2025-03-09 22:56:20,415 - INFO - Successfully downloaded: ../data/i_naturalist\3_5_lynx_roux.jpg
+2025-03-09 22:56:22,537 - INFO - Successfully downloaded: ../data/i_naturalist\3_6_castor_du_canada.jpg
+2025-03-09 22:56:25,045 - INFO - Successfully downloaded: ../data/i_naturalist\3_7_loup_gris.jpg
+2025-03-09 22:56:27,708 - INFO - Successfully downloaded: ../data/i_naturalist\3_8_.jpg
+2025-03-09 22:56:30,264 - INFO - Successfully downloaded: ../data/i_naturalist\3_9_carnivores.jpg
+2025-03-09 22:56:32,921 - INFO - Successfully downloaded: ../data/i_naturalist\3_10_chat_domestique.jpg
+2025-03-09 22:56:35,527 - INFO - Successfully downloaded: ../data/i_naturalist\3_11_mammifères.jpg
+2025-03-09 22:56:38,117 - INFO - Successfully downloaded: ../data/i_naturalist\3_12_renard_roux.jpg
+2025-03-09 22:56:40,243 - INFO - Successfully downloaded: ../data/i_naturalist\3_13_raton_laveur_commun.jpg
+2025-03-09 22:56:42,365 - INFO - Successfully downloaded: ../data/i_naturalist\3_14_lapin_à_queue_blanche.jpg
+2025-03-09 22:56:44,524 - INFO - Successfully downloaded: ../data/i_naturalist\3_15_lapin_à_queue_blanche.jpg
+2025-03-09 22:56:46,632 - INFO - Successfully downloaded: ../data/i_naturalist\3_16_lapin_à_queue_blanche.jpg
+2025-03-09 22:56:48,728 - INFO - Successfully downloaded: ../data/i_naturalist\3_17_lapin_à_queue_blanche.jpg
+2025-03-09 22:56:50,869 - INFO - Successfully downloaded: ../data/i_naturalist\3_18_lapin_à_queue_blanche.jpg
+2025-03-09 22:56:52,995 - INFO - Successfully downloaded: ../data/i_naturalist\3_19_coyote.jpg
+2025-03-09 22:56:55,168 - INFO - Successfully downloaded: ../data/i_naturalist\3_20_coyote.jpg
+2025-03-09 22:56:57,280 - INFO - Successfully downloaded: ../data/i_naturalist\3_21_coyote.jpg
+2025-03-09 22:56:59,386 - INFO - Successfully downloaded: ../data/i_naturalist\3_22_coyote.jpg
+2025-03-09 22:57:02,072 - INFO - Successfully downloaded: ../data/i_naturalist\3_23_lynx_roux.jpg
+2025-03-09 22:57:04,682 - INFO - Successfully downloaded: ../data/i_naturalist\3_24_mouflon_du_désert.jpg
+2025-03-09 22:57:10,409 - INFO - Successfully downloaded: ../data/i_naturalist\4_1_écureuil_gris.jpg
+2025-03-09 22:57:12,969 - INFO - Successfully downloaded: ../data/i_naturalist\4_2_mouffette_rayée.jpg
+2025-03-09 22:57:15,460 - INFO - Successfully downloaded: ../data/i_naturalist\4_3_souris_sylvestre.jpg
+2025-03-09 22:57:17,964 - INFO - Successfully downloaded: ../data/i_naturalist\4_4_cerf_de_virginie.jpg
+2025-03-09 22:57:20,457 - INFO - Successfully downloaded: ../data/i_naturalist\4_5_raton_laveur_commun.jpg
+2025-03-09 22:57:22,868 - INFO - Successfully downloaded: ../data/i_naturalist\4_6_mammifères.jpg
+2025-03-09 22:57:25,504 - INFO - Successfully downloaded: ../data/i_naturalist\4_7_carnivores.jpg
+2025-03-09 22:57:28,058 - INFO - Successfully downloaded: ../data/i_naturalist\4_8_.jpg
+2025-03-09 22:57:30,637 - INFO - Successfully downloaded: ../data/i_naturalist\4_9_lynx_roux.jpg
+2025-03-09 22:57:33,281 - INFO - Successfully downloaded: ../data/i_naturalist\4_10_lynx_roux.jpg
+2025-03-09 22:57:35,839 - INFO - Successfully downloaded: ../data/i_naturalist\4_11_lion_de_mer_de_nouvelle-zélande.jpg
+2025-03-09 22:57:38,309 - INFO - Successfully downloaded: ../data/i_naturalist\4_12_procyonidés.jpg
+2025-03-09 22:57:40,417 - INFO - Successfully downloaded: ../data/i_naturalist\4_13_coyote.jpg
+2025-03-09 22:57:42,541 - INFO - Successfully downloaded: ../data/i_naturalist\4_14_placentaires.jpg
+2025-03-09 22:57:44,686 - INFO - Successfully downloaded: ../data/i_naturalist\4_15_carnivores.jpg
+2025-03-09 22:57:47,215 - INFO - Successfully downloaded: ../data/i_naturalist\4_16_mammifères.jpg
+2025-03-09 22:57:49,676 - INFO - Successfully downloaded: ../data/i_naturalist\4_17_lapin_à_queue_blanche.jpg
+2025-03-09 22:57:52,404 - INFO - Successfully downloaded: ../data/i_naturalist\4_18_tamia_rayé.jpg
+2025-03-09 22:57:54,937 - INFO - Successfully downloaded: ../data/i_naturalist\4_19_lynx_roux.jpg
+2025-03-09 22:57:57,567 - INFO - Successfully downloaded: ../data/i_naturalist\4_20_lynx_roux.jpg
+2025-03-09 22:58:00,252 - INFO - Successfully downloaded: ../data/i_naturalist\4_21_artiodactyles.jpg
+2025-03-09 22:58:02,914 - INFO - Successfully downloaded: ../data/i_naturalist\4_22_chien.jpg
+2025-03-09 22:58:06,847 - INFO - Successfully downloaded: ../data/i_naturalist\4_23_cerf_de_virginie.jpg
+2025-03-09 22:58:09,511 - INFO - Successfully downloaded: ../data/i_naturalist\4_24_lapin_à_queue_blanche.jpg
+2025-03-09 22:58:15,383 - INFO - Successfully downloaded: ../data/i_naturalist\5_1_mammifères.jpg
+2025-03-09 22:58:17,959 - INFO - Successfully downloaded: ../data/i_naturalist\5_2_lièvre_d'amérique.jpg
+2025-03-09 22:58:20,511 - INFO - Successfully downloaded: ../data/i_naturalist\5_3_écureuil_fauve.jpg
+2025-03-09 22:58:23,137 - INFO - Successfully downloaded: ../data/i_naturalist\5_4_lapin_à_queue_blanche.jpg
+2025-03-09 22:58:25,643 - INFO - Successfully downloaded: ../data/i_naturalist\5_5_lièvre_d'amérique.jpg
+2025-03-09 22:58:28,110 - INFO - Successfully downloaded: ../data/i_naturalist\5_6_mammifères.jpg
+2025-03-09 22:58:30,238 - INFO - Successfully downloaded: ../data/i_naturalist\5_7_raton_laveur_commun.jpg
+2025-03-09 22:58:32,744 - INFO - Successfully downloaded: ../data/i_naturalist\5_8_loup_gris.jpg
+2025-03-09 22:58:35,316 - INFO - Successfully downloaded: ../data/i_naturalist\5_9_lynx_roux.jpg
+2025-03-09 22:58:37,798 - INFO - Successfully downloaded: ../data/i_naturalist\5_10_coyote.jpg
+2025-03-09 22:58:40,377 - INFO - Successfully downloaded: ../data/i_naturalist\5_11_lapin_à_queue_blanche.jpg
+2025-03-09 22:58:42,984 - INFO - Successfully downloaded: ../data/i_naturalist\5_12_écureuil_roux_américain.jpg
+2025-03-09 22:58:45,139 - INFO - Successfully downloaded: ../data/i_naturalist\5_13_pékan.jpg
+2025-03-09 22:58:47,770 - INFO - Successfully downloaded: ../data/i_naturalist\5_14_lynx_roux.jpg
+2025-03-09 22:58:50,354 - INFO - Successfully downloaded: ../data/i_naturalist\5_15_.jpg
+2025-03-09 22:58:52,485 - INFO - Successfully downloaded: ../data/i_naturalist\5_16_pékan.jpg
+2025-03-09 22:58:55,151 - INFO - Successfully downloaded: ../data/i_naturalist\5_17_.jpg
+2025-03-09 22:58:57,259 - INFO - Successfully downloaded: ../data/i_naturalist\5_18_glouton.jpg
+2025-03-09 22:58:59,336 - INFO - Successfully downloaded: ../data/i_naturalist\5_19_renard_roux.jpg
+2025-03-09 22:59:01,904 - INFO - Successfully downloaded: ../data/i_naturalist\5_20_.jpg
+2025-03-09 22:59:04,020 - INFO - Successfully downloaded: ../data/i_naturalist\5_21_cerf_wapiti.jpg
+2025-03-09 22:59:06,168 - INFO - Successfully downloaded: ../data/i_naturalist\5_22_cerf_de_virginie.jpg
+2025-03-09 22:59:08,321 - INFO - Successfully downloaded: ../data/i_naturalist\5_23_petits_félins.jpg
+2025-03-09 22:59:10,855 - INFO - Successfully downloaded: ../data/i_naturalist\5_24_.jpg
+2025-03-09 22:59:16,742 - INFO - Successfully downloaded: ../data/i_naturalist\6_1_sanglier.jpg
+2025-03-09 22:59:19,244 - INFO - Successfully downloaded: ../data/i_naturalist\6_2_raton_laveur_commun.jpg
+2025-03-09 22:59:21,379 - INFO - Successfully downloaded: ../data/i_naturalist\6_3_chien.jpg
+2025-03-09 22:59:23,516 - INFO - Successfully downloaded: ../data/i_naturalist\6_4_carnivores.jpg
+2025-03-09 22:59:26,029 - INFO - Successfully downloaded: ../data/i_naturalist\6_5_lynx_roux.jpg
+2025-03-09 22:59:28,589 - INFO - Successfully downloaded: ../data/i_naturalist\6_6_vison_d'amérique.jpg
+2025-03-09 22:59:30,749 - INFO - Successfully downloaded: ../data/i_naturalist\6_7_mouffette_rayée.jpg
+2025-03-09 22:59:32,869 - INFO - Successfully downloaded: ../data/i_naturalist\6_8_cerf_de_virginie.jpg
+2025-03-09 22:59:34,988 - INFO - Successfully downloaded: ../data/i_naturalist\6_9_raton_laveur_commun.jpg
+2025-03-09 22:59:37,152 - INFO - Successfully downloaded: ../data/i_naturalist\6_10_écureuil_gris.jpg
+2025-03-09 22:59:39,279 - INFO - Successfully downloaded: ../data/i_naturalist\6_11_lapin_à_queue_blanche.jpg
+2025-03-09 22:59:41,904 - INFO - Successfully downloaded: ../data/i_naturalist\6_12_canidés.jpg
+2025-03-09 22:59:44,591 - INFO - Successfully downloaded: ../data/i_naturalist\6_13_hermine_d'amérique.jpg
+2025-03-09 22:59:47,098 - INFO - Successfully downloaded: ../data/i_naturalist\6_14_coyote.jpg
+2025-03-09 22:59:49,751 - INFO - Successfully downloaded: ../data/i_naturalist\6_15_lynx_roux.jpg
+2025-03-09 22:59:52,327 - INFO - Successfully downloaded: ../data/i_naturalist\6_16_lynx_roux.jpg
+2025-03-09 22:59:54,915 - INFO - Successfully downloaded: ../data/i_naturalist\6_17_lynx_roux.jpg
+2025-03-09 22:59:57,396 - INFO - Successfully downloaded: ../data/i_naturalist\6_18_rongeurs.jpg
+2025-03-09 22:59:59,534 - INFO - Successfully downloaded: ../data/i_naturalist\6_19_raton_laveur_commun.jpg
+2025-03-09 23:00:02,157 - INFO - Successfully downloaded: ../data/i_naturalist\6_20_raton_laveur_commun.jpg
+2025-03-09 23:00:04,916 - INFO - Successfully downloaded: ../data/i_naturalist\6_21_écureuil_gris.jpg
+2025-03-09 23:00:07,523 - INFO - Successfully downloaded: ../data/i_naturalist\6_22_pékan.jpg
+2025-03-09 23:00:10,039 - INFO - Successfully downloaded: ../data/i_naturalist\6_23_mammifères.jpg
+2025-03-09 23:00:12,719 - INFO - Successfully downloaded: ../data/i_naturalist\6_24_cerf_de_virginie.jpg
+2025-03-09 23:00:18,993 - INFO - Successfully downloaded: ../data/i_naturalist\7_1_lynx_roux.jpg
+2025-03-09 23:00:21,433 - INFO - Successfully downloaded: ../data/i_naturalist\7_2_coyote.jpg
+2025-03-09 23:00:23,593 - INFO - Successfully downloaded: ../data/i_naturalist\7_3_raton_laveur_commun.jpg
+2025-03-09 23:00:26,206 - INFO - Successfully downloaded: ../data/i_naturalist\7_4_mammifères.jpg
+2025-03-09 23:00:28,828 - INFO - Successfully downloaded: ../data/i_naturalist\7_5_raton_laveur_commun.jpg
+2025-03-09 23:00:31,479 - INFO - Successfully downloaded: ../data/i_naturalist\7_6_coyote.jpg
+2025-03-09 23:00:33,964 - INFO - Successfully downloaded: ../data/i_naturalist\7_7_canidés.jpg
+2025-03-09 23:00:36,499 - INFO - Successfully downloaded: ../data/i_naturalist\7_8_pékan.jpg
+2025-03-09 23:00:39,108 - INFO - Successfully downloaded: ../data/i_naturalist\7_9_cerf_de_virginie.jpg
+2025-03-09 23:00:41,618 - INFO - Successfully downloaded: ../data/i_naturalist\7_10_écureuil_de_douglas.jpg
+2025-03-09 23:00:44,200 - INFO - Successfully downloaded: ../data/i_naturalist\7_11_tapir_de_baird.jpg
+2025-03-09 23:00:46,328 - INFO - Successfully downloaded: ../data/i_naturalist\7_12_lynx_roux.jpg
+2025-03-09 23:00:48,714 - INFO - Successfully downloaded: ../data/i_naturalist\7_13_lapin_à_queue_blanche.jpg
+2025-03-09 23:00:51,172 - INFO - Successfully downloaded: ../data/i_naturalist\7_15_mammifères.jpg
+2025-03-09 23:00:53,754 - INFO - Successfully downloaded: ../data/i_naturalist\7_16_renard_roux.jpg
+2025-03-09 23:00:56,351 - INFO - Successfully downloaded: ../data/i_naturalist\7_17_écureuil_gris.jpg
+2025-03-09 23:00:58,929 - INFO - Successfully downloaded: ../data/i_naturalist\7_18_éléphant_de_mer_du_nord.jpg
+2025-03-09 23:01:01,568 - INFO - Successfully downloaded: ../data/i_naturalist\7_19_lion_de_mer_de_nouvelle-zélande.jpg
+2025-03-09 23:01:04,083 - INFO - Successfully downloaded: ../data/i_naturalist\7_20_cerf_de_virginie.jpg
+2025-03-09 23:01:06,614 - INFO - Successfully downloaded: ../data/i_naturalist\7_21_lièvres_et_lapins.jpg
+2025-03-09 23:01:09,183 - INFO - Successfully downloaded: ../data/i_naturalist\7_22_ragondin.jpg
+2025-03-09 23:01:11,756 - INFO - Successfully downloaded: ../data/i_naturalist\7_23_cerf_de_virginie.jpg
+2025-03-09 23:01:14,471 - INFO - Successfully downloaded: ../data/i_naturalist\7_24_mammifères.jpg
+2025-03-09 23:01:31,216 - INFO - No more images found on page 8
+2025-03-10 21:23:25,542 - INFO - ====== WebDriver manager ======
+2025-03-10 21:23:27,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,091 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,135 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:28,290 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-10 21:23:28,300 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-10 21:23:28,302 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-10 21:23:28,372 - INFO - Driver downloading response is 200
+2025-03-10 21:23:28,603 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:23:29,590 - INFO - Driver has been saved in cache [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-10 21:23:40,670 - INFO - Successfully downloaded: ./data/i_naturalist\lièvre_d'amérique\1_1_lièvre_d'amérique.jpg
+2025-03-10 21:23:43,896 - INFO - Successfully downloaded: ./data/i_naturalist\cerf_élaphe\1_2_cerf_élaphe.jpg
+2025-03-10 21:23:46,597 - INFO - Successfully downloaded: ./data/i_naturalist\mouffette_rayée\1_3_mouffette_rayée.jpg
+2025-03-10 21:24:23,841 - INFO - ====== WebDriver manager ======
+2025-03-10 21:24:25,753 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:24:25,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:24:25,841 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:24:47,520 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:48,711 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:49,678 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:50,904 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:52,599 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:54,042 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:55,638 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:24:59,379 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:03,090 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:05,091 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:06,943 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:10,537 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:12,544 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:14,450 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:16,335 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:20,908 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:23,970 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:28,106 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:29,961 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:32,923 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:37,596 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:39,644 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:41,816 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:43,544 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:46,158 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:47,964 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:49,976 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:52,450 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:54,368 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:56,726 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:25:58,533 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:00,480 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:02,308 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:04,199 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:06,505 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:09,528 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:12,535 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:14,519 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:16,752 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:19,211 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:21,318 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:23,714 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:27,197 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:30,762 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:32,587 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:35,125 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:40,284 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:43,502 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:45,901 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:47,670 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:50,161 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:52,615 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:56,230 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:26:58,985 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:04,388 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:10,559 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:14,522 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:17,504 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:21,052 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:23,765 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:25,648 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:34,568 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:40,202 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:27:42,616 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-10 21:29:32,198 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Spotted-Skunk-Tracks-(2).jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Spotted-Skunk-Tracks-(2).jpg
+2025-03-10 21:29:35,220 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-2.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-2.jpg
+2025-03-10 21:29:35,836 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-4.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-4.jpg
+2025-03-10 21:29:36,390 - ERROR - Échec téléchargement https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-6.jpg: 406 Client Error: Not Acceptable for url: https://naturetracking.com/wp-content/gallery/skunk-tracks/Striped-Skunk-Tracks-6.jpg
+2025-03-10 21:33:21,364 - INFO - ====== WebDriver manager ======
+2025-03-10 21:33:24,926 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:33:24,987 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:33:25,038 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:33:43,245 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:45,556 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:48,097 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:49,620 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:51,116 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:52,898 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:55,268 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:33:58,313 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:02,342 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:05,630 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:08,319 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:11,679 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:16,474 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:20,327 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:25,812 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:27,517 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:29,247 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:32,125 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:35,877 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:41,351 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:44,499 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:34:50,703 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:02,019 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:06,419 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:10,616 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:15,523 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:21,969 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:25,513 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:28,602 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:34,702 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:38,429 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:42,581 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:47,581 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:50,543 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:54,314 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:35:58,211 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:02,533 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:05,919 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:36:08,453 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-10 21:42:03,837 - INFO - ====== WebDriver manager ======
+2025-03-10 21:42:05,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:05,404 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:05,431 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:42:18,162 - ERROR - Erreur majeure: ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+2025-03-10 21:42:26,354 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBBD30>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:30,456 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBB940>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:34,528 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001533DDBBF40>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/0fade68b457d19e059e0eeb6b5eef77d
+2025-03-10 21:42:49,666 - INFO - ====== WebDriver manager ======
+2025-03-10 21:42:51,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:51,135 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-10 21:42:51,169 - INFO - Driver [C:\Users\Low-i\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-10 21:43:00,372 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:00,812 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:01,418 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:02,650 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:04,378 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:05,371 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:06,522 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:07,385 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:08,101 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:08,813 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:09,541 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:10,291 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:10,947 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:12,701 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:13,875 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:14,465 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:15,699 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:16,311 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:17,661 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:18,718 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:19,249 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:19,948 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:20,553 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:21,782 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:22,542 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:23,834 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:24,566 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:25,294 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:26,573 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:27,229 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:27,924 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:29,454 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:30,279 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:31,108 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:31,968 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:33,700 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:34,676 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:35,434 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:36,112 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:36,877 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:37,529 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:38,612 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:40,285 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:40,996 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:41,776 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:42,529 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:43,210 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:44,342 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:46,080 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:47,565 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:48,171 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:48,911 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:49,560 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:50,466 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:51,296 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:53,351 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:54,767 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:55,573 - INFO - Bouton Load More cliqué avec succès
+2025-03-10 21:43:56,592 - ERROR - Échec du clic sur Load More: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00D70B43+25139]
+	(No symbol) [0x00D013F4]
+	(No symbol) [0x00BE04E3]
+	(No symbol) [0x00BE6F01]
+	(No symbol) [0x00BE9253]
+	(No symbol) [0x00C6F765]
+	(No symbol) [0x00C4CFCC]
+	(No symbol) [0x00C6E778]
+	(No symbol) [0x00C4CDC6]
+	(No symbol) [0x00C1BDE9]
+	(No symbol) [0x00C1D124]
+	GetHandleVerifier [0x01074373+3185251]
+	GetHandleVerifier [0x0109291A+3309578]
+	GetHandleVerifier [0x0108CF42+3286578]
+	GetHandleVerifier [0x00E07AE0+643536]
+	(No symbol) [0x00D0A20D]
+	(No symbol) [0x00D070B8]
+	(No symbol) [0x00D07257]
+	(No symbol) [0x00CF9E00]
+	BaseThreadInitThunk [0x751F7BA9+25]
+	RtlInitializeExceptionChain [0x7724C2EB+107]
+	RtlClearBits [0x7724C26F+191]
+
+2025-03-10 21:45:55,368 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D897F0850>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
+2025-03-10 21:45:59,455 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D89856220>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
+2025-03-10 21:46:03,593 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D89856910>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /session/38328133ca93affcf582600db5768288
